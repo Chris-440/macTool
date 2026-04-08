@@ -18,6 +18,24 @@
 
 ---
 
+## 📸 截图
+
+<p align="center">
+  <img src="img/screenshot1.png" width="360" alt="菜单栏界面 - 正常状态">
+</p>
+<p align="center">
+  <em>菜单栏界面 - 所有应用运行正常</em>
+</p>
+
+<p align="center">
+  <img src="img/screenshot2.png" width="600" alt="设置窗口">
+</p>
+<p align="center">
+  <em>设置窗口 - 监控列表和通用设置</em>
+</p>
+
+---
+
 ## 📋 功能特性
 
 - 🔍 **智能进程监控** - 实时监控指定应用的 CPU 和内存使用情况
@@ -37,7 +55,7 @@
 
 ### 方式一：下载 DMG 安装包（推荐）
 
-1. 前往 [Releases](https://github.com/dzj/macTool/releases) 页面下载最新版本的 `CPU-Monitor.dmg`
+1. 前往 [Releases](https://github.com/Chris-440/macTool/releases) 页面下载最新版本的 `CPU-Monitor.dmg`
 2. 双击打开 DMG 文件
 3. 将 `CPU Monitor.app` 拖拽到 `Applications` 文件夹
 4. 从启动台或应用程序文件夹启动应用
@@ -46,7 +64,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/dzj/macTool.git
+git clone https://github.com/Chris-440/macTool.git
 cd macTool
 
 # 使用 Xcode 构建
@@ -107,13 +125,6 @@ CPU Monitor 采用智能算法，避免误报：
 
 - 同一应用 5 分钟内只提醒一次
 - 可手动将应用加入白名单
-
-## 📸 截图
-
-<p align="center">
-  <img src="Screenshots/menu-bar.png" width="320" alt="菜单栏界面">
-  <img src="Screenshots/settings.png" width="600" alt="设置窗口">
-</p>
 
 ## ⚙️ 配置说明
 
